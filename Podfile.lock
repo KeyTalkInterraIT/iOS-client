@@ -1,0 +1,24 @@
+PODS:
+  - IQKeyboardManagerSwift (6.0.3)
+  - UIDevice-Hardware (0.1.11)
+  - Zip (1.1.0)
+
+DEPENDENCIES:
+  - IQKeyboardManagerSwift
+  - UIDevice-Hardware
+  - Zip
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - IQKeyboardManagerSwift
+    - UIDevice-Hardware
+    - Zip
+
+SPEC CHECKSUMS:
+  IQKeyboardManagerSwift: 04e8679f85e496bb2c474eeb9284052f1b3c391c
+  UIDevice-Hardware: 72b0ea097ed0b239fe88073e2b9ac0b18f75bc05
+  Zip: 8877eede3dda76bcac281225c20e71c25270774c
+
+PODFILE CHECKSUM: 58a7105446bf12ce9b1e962e16bcc38ca5d26c52
+
+COCOAPODS: 1.5.2

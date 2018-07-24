@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:User+CoreDataClass.swift">
+   </FileRef>
+   <FileRef
+      location = "group:User+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
+      location = "group:Config+CoreDataClass.swift">
+   </FileRef>
+   <FileRef
+      location = "group:Config+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
+      location = "group:LogData+CoreDataClass.swift">
+   </FileRef>
+   <FileRef
+      location = "group:LogData+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
+      location = "group:KeyTalk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>

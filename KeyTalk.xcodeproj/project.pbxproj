@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		730C69B520AAAD9100278A52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 730C69B320AAAD9100278A52 /* Main.storyboard */; };
+		730C69BA20AAAD9100278A52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 730C69B920AAAD9100278A52 /* Assets.xcassets */; };
+		730C69BD20AAAD9100278A52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 730C69BB20AAAD9100278A52 /* LaunchScreen.storyboard */; };
+		730C69D820ADB07400278A52 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730C69D720ADB07400278A52 /* Connection.swift */; };
+		730C69DA20ADB0FB00278A52 /* ServerDefines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730C69D920ADB0FB00278A52 /* ServerDefines.swift */; };
+		734DCF8120CF84EC00409480 /* ConnectionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734DCF8020CF84EC00409480 /* ConnectionHandler.swift */; };
+		73842FE220D77840002266A7 /* Providers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73842FCA20D77840002266A7 /* Providers.swift */; };
+		73842FE320D77840002266A7 /* RCCDLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73842FCB20D77840002266A7 /* RCCDLogic.swift */; };
+		73842FE420D77840002266A7 /* VCModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73842FCD20D77840002266A7 /* VCModel.swift */; };
+		73842FE520D77840002266A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73842FCE20D77840002266A7 /* ViewController.swift */; };
+		73842FE820D77840002266A7 /* DBHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73842FD220D77840002266A7 /* DBHandler.swift */; };
+		73842FE920D77840002266A7 /* KeyTalk.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 73842FD320D77840002266A7 /* KeyTalk.xcdatamodeld */; };
+		73842FEC20D77840002266A7 /* LogFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73842FD720D77840002266A7 /* LogFile.swift */; };
+		73842FED20D77840002266A7 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73842FD920D77840002266A7 /* ColorExtension.swift */; };
+		73842FEE20D77840002266A7 /* Defines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73842FDA20D77840002266A7 /* Defines.swift */; };
+		73842FEF20D77840002266A7 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73842FDB20D77840002266A7 /* Utilities.swift */; };
+		73842FF020D77840002266A7 /* INIParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73842FDD20D77840002266A7 /* INIParser.swift */; };
+		73842FF120D77840002266A7 /* HardwareSignature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73842FDF20D77840002266A7 /* HardwareSignature.swift */; };
+		73842FF220D77840002266A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73842FE120D77840002266A7 /* AppDelegate.swift */; };
+		73842FFD20D77E5D002266A7 /* KMOpenUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = 73842FFC20D77E5D002266A7 /* KMOpenUDID.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		73842FFF20D77F18002266A7 /* KeyTalk-Bridging-Header.h in Sources */ = {isa = PBXBuildFile; fileRef = 73842FFE20D77F18002266A7 /* KeyTalk-Bridging-Header.h */; };
+		7384300220D780D6002266A7 /* ImportVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7384300120D780D6002266A7 /* ImportVC.swift */; };
+		7384300420D78729002266A7 /* ImportCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7384300320D78729002266A7 /* ImportCell.swift */; };
+		7384300620D79F1D002266A7 /* ImportModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7384300520D79F1D002266A7 /* ImportModel.swift */; };
+		7384300C20D7B030002266A7 /* HelpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7384300B20D7B030002266A7 /* HelpVC.swift */; };
+		F852A5A50F79FEE245A65BDE /* Pods_KeyTalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 296379723CA59EF3DF23D58E /* Pods_KeyTalk.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E537DC20F47B16B4D8732C7 /* Pods-KeyTalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyTalk.release.xcconfig"; path = "Pods/Target Support Files/Pods-KeyTalk/Pods-KeyTalk.release.xcconfig"; sourceTree = "<group>"; };
+		296379723CA59EF3DF23D58E /* Pods_KeyTalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeyTalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		480A647D7F7B22F0F86B65F7 /* Pods-KeyTalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyTalk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KeyTalk/Pods-KeyTalk.debug.xcconfig"; sourceTree = "<group>"; };
+		730C69AC20AAAD9100278A52 /* KeyTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		730C69B420AAAD9100278A52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		730C69B920AAAD9100278A52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		730C69BC20AAAD9100278A52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		730C69BE20AAAD9100278A52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		730C69D720ADB07400278A52 /* Connection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
+		730C69D920ADB0FB00278A52 /* ServerDefines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerDefines.swift; sourceTree = "<group>"; };
+		734DCF8020CF84EC00409480 /* ConnectionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionHandler.swift; sourceTree = "<group>"; };
+		73842FCA20D77840002266A7 /* Providers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Providers.swift; sourceTree = "<group>"; };
+		73842FCB20D77840002266A7 /* RCCDLogic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RCCDLogic.swift; sourceTree = "<group>"; };
+		73842FCD20D77840002266A7 /* VCModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCModel.swift; sourceTree = "<group>"; };
+		73842FCE20D77840002266A7 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		73842FD220D77840002266A7 /* DBHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBHandler.swift; sourceTree = "<group>"; };
+		73842FD420D77840002266A7 /* KeyTalk.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KeyTalk.xcdatamodel; sourceTree = "<group>"; };
+		73842FD720D77840002266A7 /* LogFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogFile.swift; sourceTree = "<group>"; };
+		73842FD920D77840002266A7 /* ColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		73842FDA20D77840002266A7 /* Defines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Defines.swift; sourceTree = "<group>"; };
+		73842FDB20D77840002266A7 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		73842FDD20D77840002266A7 /* INIParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = INIParser.swift; sourceTree = "<group>"; };
+		73842FDF20D77840002266A7 /* HardwareSignature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HardwareSignature.swift; sourceTree = "<group>"; };
+		73842FE120D77840002266A7 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		73842FFB20D77E5D002266A7 /* KMOpenUDID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMOpenUDID.h; sourceTree = "<group>"; };
+		73842FFC20D77E5D002266A7 /* KMOpenUDID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMOpenUDID.m; sourceTree = "<group>"; };
+		73842FFE20D77F18002266A7 /* KeyTalk-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KeyTalk-Bridging-Header.h"; sourceTree = "<group>"; };
+		7384300120D780D6002266A7 /* ImportVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportVC.swift; sourceTree = "<group>"; };
+		7384300320D78729002266A7 /* ImportCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportCell.swift; sourceTree = "<group>"; };
+		7384300520D79F1D002266A7 /* ImportModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportModel.swift; sourceTree = "<group>"; };
+		7384300B20D7B030002266A7 /* HelpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		730C69A920AAAD9100278A52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F852A5A50F79FEE245A65BDE /* Pods_KeyTalk.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19C92443E457E25D85A81DB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				296379723CA59EF3DF23D58E /* Pods_KeyTalk.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		730C69A320AAAD9100278A52 = {
+			isa = PBXGroup;
+			children = (
+				730C69AE20AAAD9100278A52 /* KeyTalk */,
+				730C69AD20AAAD9100278A52 /* Products */,
+				F9F96B51081681CAF6051BA0 /* Pods */,
+				19C92443E457E25D85A81DB8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		730C69AD20AAAD9100278A52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				730C69AC20AAAD9100278A52 /* KeyTalk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		730C69AE20AAAD9100278A52 /* KeyTalk */ = {
+			isa = PBXGroup;
+			children = (
+				7384300A20D7B01A002266A7 /* Help */,
+				7384300020D780B0002266A7 /* ImportRccd */,
+				73842FFA20D77E5D002266A7 /* OpenUDID */,
+				73842FE020D77840002266A7 /* AppDelegate */,
+				73842FCF20D77840002266A7 /* Database */,
+				73842FDE20D77840002266A7 /* HardwareSignature */,
+				73842FDC20D77840002266A7 /* INI */,
+				73842FCC20D77840002266A7 /* MainScreen */,
+				73842FC920D77840002266A7 /* RCCDEntity */,
+				73842FD820D77840002266A7 /* Utilities */,
+				73842FC720D777C0002266A7 /* UI */,
+				730C69D620ADB06100278A52 /* Connection */,
+				73842FC820D777FE002266A7 /* Resources */,
+				730C69BE20AAAD9100278A52 /* Info.plist */,
+				73842FFE20D77F18002266A7 /* KeyTalk-Bridging-Header.h */,
+			);
+			path = KeyTalk;
+			sourceTree = "<group>";
+		};
+		730C69D620ADB06100278A52 /* Connection */ = {
+			isa = PBXGroup;
+			children = (
+				730C69D720ADB07400278A52 /* Connection.swift */,
+				730C69D920ADB0FB00278A52 /* ServerDefines.swift */,
+				734DCF8020CF84EC00409480 /* ConnectionHandler.swift */,
+			);
+			path = Connection;
+			sourceTree = "<group>";
+		};
+		73842FC720D777C0002266A7 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				730C69B320AAAD9100278A52 /* Main.storyboard */,
+				730C69BB20AAAD9100278A52 /* LaunchScreen.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		73842FC820D777FE002266A7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				730C69B920AAAD9100278A52 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		73842FC920D77840002266A7 /* RCCDEntity */ = {
+			isa = PBXGroup;
+			children = (
+				73842FCA20D77840002266A7 /* Providers.swift */,
+				73842FCB20D77840002266A7 /* RCCDLogic.swift */,
+			);
+			path = RCCDEntity;
+			sourceTree = "<group>";
+		};
+		73842FCC20D77840002266A7 /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				73842FCD20D77840002266A7 /* VCModel.swift */,
+				73842FCE20D77840002266A7 /* ViewController.swift */,
+			);
+			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		73842FCF20D77840002266A7 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				73842FD220D77840002266A7 /* DBHandler.swift */,
+				73842FD320D77840002266A7 /* KeyTalk.xcdatamodeld */,
+				73842FD720D77840002266A7 /* LogFile.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		73842FD820D77840002266A7 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				73842FD920D77840002266A7 /* ColorExtension.swift */,
+				73842FDA20D77840002266A7 /* Defines.swift */,
+				73842FDB20D77840002266A7 /* Utilities.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		73842FDC20D77840002266A7 /* INI */ = {
+			isa = PBXGroup;
+			children = (
+				73842FDD20D77840002266A7 /* INIParser.swift */,
+			);
+			path = INI;
+			sourceTree = "<group>";
+		};
+		73842FDE20D77840002266A7 /* HardwareSignature */ = {
+			isa = PBXGroup;
+			children = (
+				73842FDF20D77840002266A7 /* HardwareSignature.swift */,
+			);
+			path = HardwareSignature;
+			sourceTree = "<group>";
+		};
+		73842FE020D77840002266A7 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				73842FE120D77840002266A7 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		73842FFA20D77E5D002266A7 /* OpenUDID */ = {
+			isa = PBXGroup;
+			children = (
+				73842FFB20D77E5D002266A7 /* KMOpenUDID.h */,
+				73842FFC20D77E5D002266A7 /* KMOpenUDID.m */,
+			);
+			path = OpenUDID;
+			sourceTree = "<group>";
+		};
+		7384300020D780B0002266A7 /* ImportRccd */ = {
+			isa = PBXGroup;
+			children = (
+				7384300120D780D6002266A7 /* ImportVC.swift */,
+				7384300320D78729002266A7 /* ImportCell.swift */,
+				7384300520D79F1D002266A7 /* ImportModel.swift */,
+			);
+			path = ImportRccd;
+			sourceTree = "<group>";
+		};
+		7384300A20D7B01A002266A7 /* Help */ = {
+			isa = PBXGroup;
+			children = (
+				7384300B20D7B030002266A7 /* HelpVC.swift */,
+			);
+			path = Help;
+			sourceTree = "<group>";
+		};
+		F9F96B51081681CAF6051BA0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				480A647D7F7B22F0F86B65F7 /* Pods-KeyTalk.debug.xcconfig */,
+				0E537DC20F47B16B4D8732C7 /* Pods-KeyTalk.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		730C69AB20AAAD9100278A52 /* KeyTalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 730C69C120AAAD9100278A52 /* Build configuration list for PBXNativeTarget "KeyTalk" */;
+			buildPhases = (
+				A3E4BE67F9702E767359405E /* [CP] Check Pods Manifest.lock */,
+				730C69A820AAAD9100278A52 /* Sources */,
+				730C69A920AAAD9100278A52 /* Frameworks */,
+				730C69AA20AAAD9100278A52 /* Resources */,
+				1ECCD5E4AB47F6B0D2ECAF5D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeyTalk;
+			productName = KeyTalk;
+			productReference = 730C69AC20AAAD9100278A52 /* KeyTalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		730C69A420AAAD9100278A52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Paurush;
+				TargetAttributes = {
+					730C69AB20AAAD9100278A52 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 730C69A720AAAD9100278A52 /* Build configuration list for PBXProject "KeyTalk" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 730C69A320AAAD9100278A52;
+			productRefGroup = 730C69AD20AAAD9100278A52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				730C69AB20AAAD9100278A52 /* KeyTalk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		730C69AA20AAAD9100278A52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				730C69BD20AAAD9100278A52 /* LaunchScreen.storyboard in Resources */,
+				730C69BA20AAAD9100278A52 /* Assets.xcassets in Resources */,
+				730C69B520AAAD9100278A52 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1ECCD5E4AB47F6B0D2ECAF5D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KeyTalk/Pods-KeyTalk-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/UIDevice-Hardware/UIDevice_Hardware.framework",
+				"${BUILT_PRODUCTS_DIR}/Zip/Zip.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UIDevice_Hardware.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Zip.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KeyTalk/Pods-KeyTalk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3E4BE67F9702E767359405E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KeyTalk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		730C69A820AAAD9100278A52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73842FEC20D77840002266A7 /* LogFile.swift in Sources */,
+				73842FE920D77840002266A7 /* KeyTalk.xcdatamodeld in Sources */,
+				73842FF120D77840002266A7 /* HardwareSignature.swift in Sources */,
+				73842FFF20D77F18002266A7 /* KeyTalk-Bridging-Header.h in Sources */,
+				73842FE420D77840002266A7 /* VCModel.swift in Sources */,
+				73842FE220D77840002266A7 /* Providers.swift in Sources */,
+				730C69D820ADB07400278A52 /* Connection.swift in Sources */,
+				73842FEE20D77840002266A7 /* Defines.swift in Sources */,
+				73842FF220D77840002266A7 /* AppDelegate.swift in Sources */,
+				7384300620D79F1D002266A7 /* ImportModel.swift in Sources */,
+				730C69DA20ADB0FB00278A52 /* ServerDefines.swift in Sources */,
+				73842FEF20D77840002266A7 /* Utilities.swift in Sources */,
+				7384300220D780D6002266A7 /* ImportVC.swift in Sources */,
+				73842FED20D77840002266A7 /* ColorExtension.swift in Sources */,
+				7384300C20D7B030002266A7 /* HelpVC.swift in Sources */,
+				73842FE520D77840002266A7 /* ViewController.swift in Sources */,
+				73842FF020D77840002266A7 /* INIParser.swift in Sources */,
+				73842FE820D77840002266A7 /* DBHandler.swift in Sources */,
+				73842FE320D77840002266A7 /* RCCDLogic.swift in Sources */,
+				734DCF8120CF84EC00409480 /* ConnectionHandler.swift in Sources */,
+				73842FFD20D77E5D002266A7 /* KMOpenUDID.m in Sources */,
+				7384300420D78729002266A7 /* ImportCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		730C69B320AAAD9100278A52 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				730C69B420AAAD9100278A52 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		730C69BB20AAAD9100278A52 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				730C69BC20AAAD9100278A52 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		730C69BF20AAAD9100278A52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		730C69C020AAAD9100278A52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		730C69C220AAAD9100278A52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 480A647D7F7B22F0F86B65F7 /* Pods-KeyTalk.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 37BDH5GXA8;
+				INFOPLIST_FILE = KeyTalk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.keytalk.keytalkclient5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9c57b3c4-9496-441e-9a17-b2e5b1e8604b";
+				PROVISIONING_PROFILE_SPECIFIER = InterraDeveloper;
+				SWIFT_OBJC_BRIDGING_HEADER = "KeyTalk/KeyTalk-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		730C69C320AAAD9100278A52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E537DC20F47B16B4D8732C7 /* Pods-KeyTalk.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 5ELBHFZN8K;
+				INFOPLIST_FILE = KeyTalk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.keytalk.keytalkclient5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d1727be4-4a6e-480c-84f8-aae35c6caeb9";
+				PROVISIONING_PROFILE_SPECIFIER = KeyTalk5AppStore;
+				SWIFT_OBJC_BRIDGING_HEADER = "KeyTalk/KeyTalk-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		730C69A720AAAD9100278A52 /* Build configuration list for PBXProject "KeyTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				730C69BF20AAAD9100278A52 /* Debug */,
+				730C69C020AAAD9100278A52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		730C69C120AAAD9100278A52 /* Build configuration list for PBXNativeTarget "KeyTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				730C69C220AAAD9100278A52 /* Debug */,
+				730C69C320AAAD9100278A52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		73842FD320D77840002266A7 /* KeyTalk.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				73842FD420D77840002266A7 /* KeyTalk.xcdatamodel */,
+			);
+			currentVersion = 73842FD420D77840002266A7 /* KeyTalk.xcdatamodel */;
+			path = KeyTalk.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 730C69A420AAAD9100278A52 /* Project object */;
+}
