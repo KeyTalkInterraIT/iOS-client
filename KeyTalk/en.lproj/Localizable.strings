@@ -1,0 +1,177 @@
+//"KeyTalk" = "KeyTalk";
+"ok_string" = "Ok";
+"Cancel_string" = "Cancel";
+//"Yes" = "Yes";
+//"No" = "No";
+//
+////Biometric Validation
+"Biometric_Reason" = "Please verify your biometrics in order to proceed further";
+//
+////Help
+//"helpCell" = "helpCell"; // identifier
+//
+////importVC
+"Version:" = "Version: ";
+//"ImportCell" = "importCell"; // identifier
+//"appLockCell" = "appLockCell"; //identifier
+//"appLockState" = "appLockState"; // 2 identifier
+//"rrCell" = "rrCell"; // identifier
+"lblHeading1" = "Email Reports of any issues to your administrator.";
+"r_cell_title1" = "SEND REPORT";
+"lblHeading2" = "Remove all previously imported providers and services.";
+"r_cell_title2" = "REMOVE CONFIGURATION";
+//"identifierCell" = "identifierCell”;
+"Enter_valid_url" = "Please enter valid url."; // Also in ViewController
+"Enter_empty_url" = "Please enter the url.";
+"Something_wrong_happened" = "Something wrong happened";
+"Delete_all_date_confirmation" = "Are you sure you want to delete all data?";
+
+//New Strings
+"app_unlock" = "App Unlock";// new string
+"show_me_how" = "Show me how?";
+"client_identifier" = "Client Identifier";
+"client_identifier_detail" = "During a support call, we may ask you to provide this mobile device's unique number (for example, to block it in case it gets stolen). Please note down the following number and store it in a safe place:";
+"about_details" = "The KeyTalk client enables automated requesting and rollout of PKI certificates and keys for, among other things, secure authentication, email encryption and digital document signing:";
+"import_config" = "IMPORT CONFIGURATION";
+"lblimportCellHead" = "Enter a URL that points to a  KeyTalk client configuration (RCCD) file.";
+"lblimportCellSubheading" = "It is also possible to import a KeyTalk client configuration (RCCD) file via an email attachment.";
+"url_placeholder" = "URL of KeyTalk configuration (RCCD) file";
+"import_string" = "IMPORT";
+"language_selection_alert" = "Language selected:";
+"secondary_certificate_string" = "Secondary Certificate";
+
+//Appdelegate
+//"rccd" = "rccd"; // fileExternsion
+"invalid_rccd_file" = "Invalid RCCD file";
+"Unresolved_error" = "Unresolved error";
+"container_name" = "KeyTalk";
+"Locking_Queue" = "Locking Queue";
+//
+////DBHandler
+"RCCD_already_Imported" = "RCCD file already been imported.";
+//"Config_string" = "Config"; // 4
+"RCCD_succesfully_imported" = "RCCD file successfully imported.";
+//"configinfo" = "configinfo"; //2
+//"Failed_check_key_database" = "Failed to check the key in the database.";
+//"imageData" = "imageData";
+//"Json_decoding_failed" = "Json decoding failed...... ";
+//"Failed_string" = "Failed"; //3 and LogFile also
+//"User" = "User"; //5 entityName
+//"result_invalid" = "result was invalid.";
+//"invalid_result_found" = "invalid result found."; //2
+//"invalid_result" = "invalid result."; //Logfile also
+//
+////Logfile
+//"LogData" = "LogData"; //2
+//"logData" = "logData";
+//"invalid_string" = "invalid String";
+//
+////HardwareSignature
+//"udid_key" = "com.interrait.keytalkinterra.udid";
+"System_name" = "System name:";
+"System_version" = "System version:";
+"Platform_string" = "Platform:";
+"Hardware_model" = "Hardware model:";
+"Memory_string" = "Memory (user/total):";
+"Diskspace_string" = "Diskspace (free/total):";
+"CPU_frequency" = "CPU frequency:";
+"BUS_frequency" = "BUS frequency:";
+//"harware_signature_key" = "hwsigformula";
+//"Component_name_and_value" = "Component name and value";
+//
+//UDID
+//"item_saved_in_keychain" = "item saved in keychain";
+//"Unable_to_save_in_keycahin" = "unable to save in keychain";
+//"Remove_failed" = "Remove failed:";
+//"Nothing_retrieved_Keychain" = "Nothing was retrieved from the keychain. Status code ";
+//
+//
+//VCModel
+"delay_message_alert" = "Something went wrong. Please try again after ";
+"seconds_string" = "seconds";
+"locked_message_alert" = "User is locked on server. Please check with your administrator.";
+"password_update_message_alert" = "Password is expired. Please update your password.";
+//"challenges" = "challenges";
+//"Status_unrecognised" = "Status unrecognised";
+//"invalid_challenge" = "Invalid challenge encountered.";
+//"download_location" = "/downloaded.rccd";
+//"valid_file_path" = "file://";
+//"rccd_suffix" = ".rccd";
+//
+//ViewController
+//"importRCCD" = "importRCCD";
+//"Delay_time_message" = "delayTime is :::::::";
+"Error_occured_communication" = "Error occurred in communication"; //2
+//// “tempUrlStr” = "$(KEYTALK_SVR_HOST)”;
+"invalid_rccd" = "Invalid RCCD file";
+"Something_went_wrong" = "Something went wrong."; // also in Utilities
+////"Please enter valid url." also in ImportVC file
+"Passcode_notset" = "Passcode not set.";
+"passcode_configure_alert" = "Passcode not configured, kindly configure.";
+"Biometric_validation_alert" = "Biometric Validation Failed , Please try again";
+"Enter_your_response" = "Enter your response";
+"Delay_wait" = "WAIT - ";
+//"s" = "s"
+"Authenticate_string" = "AUTHENTICATE";
+"service_match_alert" = "Service doesn't match with given services";
+"Enter_details_alert" = "Please enter all details";
+"Select_service_alert" = "Please select KeyTalk service for downloading certificate chain.";
+"Download_one_by_one" = "Download certificates one by one";
+"Root_certificate" = "Root Certificate";
+//"Cancel_string" = "Cancel"; present at the top
+"validate_user_response" = "Please enter a valid response in order to complete the challenge";
+//
+////Defines
+"Certificate_msg_string" = "The control is going to be transferred to SAFARI. Please click on OK to install the certificate. \n To enter the password, Please long press on the password field and select Paste.";
+"Server_fail_msg_string" = "Error occurred in connection.";
+"Email_report_html_string" = "This is an e-mail to the KeyTalk support desk.<br />Please replace this text with a description of the problem you are experiencing, and what you were doing when the problem occurred.<br /><br />The attached log file is required to let us help you as efficient as possible. It does not contain any personal information.";
+"Email_report_subject_string" = "KeyTalk iOS client - Error report";
+//
+////Utilities
+////“Parcing_filepath” = “/ParsingRCCD”;
+////Something went wrong also in ViewController
+"response_status_string" = "Status :";
+//
+////Connection
+"Something_went_wrong_try_again" = "Something went wrong. Please try again."; //4
+//"statusCode" = "Status: ";
+//"Headers" = "Headers:::";
+//"ResponseString" = "ResponseString:::";
+//
+////ServerDefines also in ViewController
+//"PassWordChallenge" = "Password challenge";
+"nextToken_string" = "Please Enter the Next Code from Your Token:";
+"otp_string" = "otp";
+"newUserDefinedPin_string" = "Enter your new PIN of 4 to 8 digits,or <Ctrl-D> to cancel the New PIN procedure:";
+"reenterNewPin_string" = "Please re-enter new PIN:";
+"newPinandPasscode_string" = "Wait for the code on your card to change, then enter new PIN and TokenCode\r\n\r\nEnter PASSCODE:";
+"newSystemPushedPin_string" = "Are you prepared to accept a new system-generated PIN [y/n]?";
+//"rcdpProtocol" = "/rcdp/2.2.0";
+
+//Connection Handler
+//// “Something_went_wrong_try_again” in Connection file
+"End_communication" = "End of communication.";
+//"identity" = "identity";
+//"Accept_encoding" = "Accept-Encoding";
+
+//main page
+"KeyTalk_service_string" = "KeyTalk Services";
+"username_string" = "Username";
+"Password_string" = "Password";
+"trust_button_string" = "TRUST CERT. CHAIN";
+//"Authenticate_string" = "AUTHENTICATE"; also in ViewController
+"please_wait_string" = "Please Wait...";
+"long_press_password_strong" = "To enter the certificate installation password, please long press on the password field and select Paste when your device asks for it.";
+"transfer_to_safari_string" = "The control is going to be transferred to the SAFARI browser. Please click on OK to install the certificate.";
+
+//Help VC Page
+"step_one" = "Step 1.";
+"step_one_instruction_string" = "Open your Email Client.";
+"step_two" = "Step 2.";
+"step_two_instruction_string" = "Open the mail containing the KeyTalk client configuration (RCCD) file.";
+"step_three" = "Step 3.";
+"step_three_instruction_string" = "Open the RCCD file by selecting \"Copy to KeyTalk 5\".";
+"step_four" = "Step 4.";
+"step_four_instruction_string" = "You will be presented with a confirmation that the RCCD file has been succesfully imported.";
+
+"lang_change" = "Language";

@@ -3,7 +3,6 @@
 //  KeyTalk
 //
 //  Created by Paurush on 5/21/18.
-//  Copyright © 2018 Paurush. All rights reserved.
 //
 
 import UIKit

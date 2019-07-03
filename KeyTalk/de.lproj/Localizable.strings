@@ -1,0 +1,177 @@
+//"KeyTalk" = "KeyTalk";
+"ok_string" = "Ok";
+"Cancel_string" = "Abbrechen";
+//"Yes" = "Yes";
+//"No" = "No";
+//
+////Biometric Validation
+"Biometric_Reason" = "Bitte überprüfen Sie Ihre biometrischen Daten, um fortzufahren";
+//
+////Help
+//"helpCell" = "helpCell"; // identifier
+//
+////importVC
+"Version:" = "Version: ";
+//"ImportCell" = "importCell"; // identifier
+//"appLockCell" = "appLockCell"; //identifier
+//"appLockState" = "appLockState"; // 2 identifier
+//"rrCell" = "rrCell"; // identifier
+"lblHeading1" = "Problemberichten senden an Ihren Administrator.";
+"r_cell_title1" = "BERICHT SENDEN";
+"lblHeading2" = "Entfernen Sie alle aktuellen Konfigurationen.";
+"r_cell_title2" = "KONFIGURATION ENTFERNEN";
+//"identifierCell" = "identifierCell”;
+"Enter_valid_url" = "Bitte geben Sie eine gültige Internetadresse ein"; // Also in ViewController
+"Enter_empty_url" = "Bitte geben Sie die Internetadresse ein.";
+"Something_wrong_happened" = "Etwas ist schiefgelaufen";
+"Delete_all_date_confirmation" = "Möchten Sie wirklich alle KeyTalk-Konfigurationsdaten löschen?";
+
+//New Strings
+"app_unlock" = "App entsperren";// new string
+"show_me_how" = "Zeig mir wie?";
+"client_identifier" = "Kundenidentifikation";
+"client_identifier_detail" = "Während eines Supportanrufs bitten wir Sie möglicherweise, die eindeutige Nummer dieses Mobilgeräts anzugeben (z. B. um es zu blockieren, falls es gestohlen wird). Bitte notieren Sie sich die folgende Nummer und bewahren Sie sie an einem sicheren Ort auf: ";
+"about_details" = "Der KeyTalk-Client bietet sichere, automatisierte Zertifikat Lösungen für Betriebs Public Key Infrastructure:";
+"import_config" = "IMPORT-KONFIGURATION";
+"lblimportCellHead" = "Geben Sie eine URL ein, die auf eine KeyTalk-Client-Konfigurationsdatei (RCCD-Datei) verweist.";
+"lblimportCellSubheading" = "Es ist auch möglich, eine KeyTalk-Client-Konfigurationsdatei (RCCD) über einen E-Mail-Anhang zu importieren.";
+"url_placeholder" = "URL der KeyTalk-Konfigurationsdatei (RCCD)";
+"import_string" = "EINFÜHREN";
+"language_selection_alert" = "Language selected:";
+"secondary_certificate_string" = "Secondary Certificate";
+
+//Appdelegate
+//"rccd" = "rccd"; // fileExternsion
+"invalid_rccd_file" = "Ungültige KeyTalk-App-Konfigurationsdatei (RCCD)";
+"Unresolved_error" = "Unresolved error";
+"container_name" = "KeyTalk";
+"Locking_Queue" = "Locking Queue";
+//
+////DBHandler
+"RCCD_already_Imported" = "Diese KeyTalk-Konfigurationsdatei wurde bereits importiert.";
+//"Config_string" = "Config"; // 4
+"RCCD_succesfully_imported" = "KeyTalk-Konfigurationsdatei wurde erfolgreich importiert.";
+//"configinfo" = "configinfo"; //2
+//"Failed_check_key_database" = "Failed to check the key in the database.";
+//"imageData" = "imageData";
+//"Json_decoding_failed" = "Json decoding failed...... ";
+//"Failed_string" = "Failed"; //3 and LogFile also
+//"User" = "User"; //5 entityName
+//"result_invalid" = "result was invalid.";
+//"invalid_result_found" = "invalid result found."; //2
+//"invalid_result" = "invalid result."; //Logfile also
+//
+////Logfile
+//"LogData" = "LogData"; //2
+//"logData" = "logData";
+//"invalid_string" = "invalid String";
+//
+////HardwareSignature
+//"udid_key" = "com.interrait.keytalkinterra.udid";
+"System_name" = "System name:";
+"System_version" = "System version:";
+"Platform_string" = "Plattform:";
+"Hardware_model" = "Hardware-Modell:";
+"Memory_string" = "Speicher (Benutzer / Gesamt):";
+"Diskspace_string" = "Speicherplatz (verfügbar / gesamt):";
+"CPU_frequency" = "CPU-Frequenz:";
+"BUS_frequency" = "BUS frequency:";
+//"harware_signature_key" = "hwsigformula";
+//"Component_name_and_value" = "Component name and value";
+//
+//UDID
+//"item_saved_in_keychain" = "item saved in keychain";
+//"Unable_to_save_in_keycahin" = "unable to save in keychain";
+//"Remove_failed" = "Remove failed:";
+//"Nothing_retrieved_Keychain" = "Nothing was retrieved from the keychain. Status code ";
+//
+//
+//VCModel
+"delay_message_alert" = "Etwas ist schief gelaufen. Bitte versuchen Sie es noch einmal in ";
+"seconds_string" = "Sekunden";
+"locked_message_alert" = "Benutzer ist auf dem Server gesperrt. Bitte wenden Sie sich an Ihren Administrator oder versuchen Sie es noch mal in einigen Minuten.";
+"password_update_message_alert" = "Passwort ist abgelaufen Bitte aktualisieren Sie Ihr Passwort.";
+//"challenges" = "challenges";
+//"Status_unrecognised" = "Status unrecognised";
+//"invalid_challenge" = "Invalid challenge encountered.";
+//"download_location" = "/downloaded.rccd";
+//"valid_file_path" = "file://";
+//"rccd_suffix" = ".rccd";
+//
+//ViewController
+//"importRCCD" = "importRCCD";
+//"Delay_time_message" = "delayTime is :::::::";
+"Error_occured_communication" = "Bei der Kommunikation ist ein "; //2
+//// “tempUrlStr” = "$(KEYTALK_SVR_HOST)”;
+"invalid_rccd" = "Ungültige KeyTalk-App-Konfigurationsdatei (RCCD)";
+"Something_went_wrong" = "Etwas ist schief gelaufen."; // also in Utilities
+////"Please enter valid url." also in ImportVC file
+"Passcode_notset" = "Zugangscode 'Passcode' für den Gerätezugriff nicht festgelegt";
+"passcode_configure_alert" = "Gerätepasscode nicht konfiguriert, bitte konfigurieren Sie ihn";
+"Biometric_validation_alert" = "Biometrische Überprüfung fehlgeschlagen. Bitte versuchen Sie es noch einmal";
+"Enter_your_response" = "Geben Sie Ihre Antwort ein";
+"Delay_wait" = "WARTEN - ";
+//"s" = "s"
+"Authenticate_string" = "AUTHENTIFIZIEREN";
+"service_match_alert" = "Der Dienst passt nicht zu den verfügbaren Diensten";
+"Enter_details_alert" = "Bitte geben Sie alle Details ein";
+"Select_service_alert" = "Wählen Sie den KeyTalk-Dienst zum Herunterladen der privaten Zertifikatkette aus.";
+"Download_one_by_one" = "Laden Sie die Zertifikate einzeln herunter";
+"Root_certificate" = "Root Certificate";
+//"Cancel_string" = "Cancel"; present at the top
+"validate_user_response" = "Bitte geben Sie eine gültige Antwort ein, um die Challenge abzuschließen";
+//
+////Defines
+"Certificate_msg_string" = "Die Kontrolle wird an SAFARI übergeben.Klicken Sie auf OK, um das Zertifikat zu installieren. Um das Passwort einzugeben, drücken Sie lange auf das Passwortfeld und wählen Sie Einfügen.";
+"Server_fail_msg_string" = "Fehler in Verbindung aufgetreten.";
+"Email_report_html_string" = "Dies ist eine E-Mail an den KeyTalk-Support. Ersetzen Sie diesen Text durch eine Beschreibung des Problems, das aufgetreten ist und was Sie getan haben, als das Problem auftrat. Die angehängte Protokolldatei ist erforderlich, damit wir Sie so effizient wie möglich unterstützen können. Es enthält keine persönlichen Informationen.";
+"Email_report_subject_string" = "KeyTalk iOS-Client - Fehlerbericht";
+//
+////Utilities
+////“Parcing_filepath” = “/ParsingRCCD”;
+////Something went wrong also in ViewController
+"response_status_string" = "Status :";
+//
+////Connection
+"Something_went_wrong_try_again" = "Etwas ist schief gelaufen. Bitte versuche Sie es noch einmal."; //4
+//"statusCode" = "Status: ";
+//"Headers" = "Headers:::";
+//"ResponseString" = "ResponseString:::";
+//
+////ServerDefines also Viewcontroller
+//"PassWordChallenge" = "Password challenge";
+"nextToken_string" = "Please Enter the Next Code from Your Token:";
+"otp_string" = "otp";
+"newUserDefinedPin_string" = "Enter your new PIN of 4 to 8 digits,or <Ctrl-D> to cancel the New PIN procedure:";
+"reenterNewPin_string" = "Please re-enter new PIN:";
+"newPinandPasscode_string" = "Wait for the code on your card to change, then enter new PIN and TokenCode\r\n\r\nEnter PASSCODE:";
+"newSystemPushedPin_string" = "Are you prepared to accept a new system-generated PIN [y/n]?";
+//"rcdpProtocol" = "/rcdp/2.2.0";
+
+//Connection Handler
+//// “Something_went_wrong_try_again” in Connection file
+"End_communication" = "Ende der Kommunikation.";
+//"identity" = "identity";
+//"Accept_encoding" = "Accept-Encoding";
+
+//main page
+"KeyTalk_service_string" = "KeyTalk Services";
+"username_string" = "Nutzername";
+"Password_string" = "Passwort";
+"trust_button_string" = "ZERTIFIKATKETTE VERTRAUEN";
+//"Authenticate_string" = "AUTHENTICATE"; also in ViewController
+"please_wait_string" = "Bitte warten..";
+"long_press_password_strong" = "Zum Eingeben des Zertifikatsinstallationskennworts drücken Sie lange auf das Kennwortfeld und wählen Einfügen, wenn Ihr Gerät danach fragt.";
+"transfer_to_safari_string" = "Die Kontrolle wird an den SAFARI-Browser übertragen. Klicken Sie auf OK, um das Zertifikat zu installieren.";
+
+//Help VC Page
+"step_one" = "Step 1.";
+"step_one_instruction_string" = "Öffnen Sie Ihren E-Mail-Client";
+"step_two" = "Step 2.";
+"step_two_instruction_string" = "Öffnen Sie die Mail, die die KeyTalk-Client-Konfigurationsdatei (RCCD) enthält";
+"step_three" = "Step 3.";
+"step_three_instruction_string" = "Öffnen Sie die RCCD-Datei, indem Sie \"Kopieren zu KeyTalk 5\" auswählen.";
+"step_four" = "Step 4.";
+"step_four_instruction_string" = "YSie erhalten eine Bestätigung, dass die RCCD-Datei erfolgreich importiert wurde.";
+
+"lang_change" = "Sprache/Language";

@@ -1,0 +1,177 @@
+//"KeyTalk" = "KeyTalk";
+"ok_string" = "Ok";
+"Cancel_string" = "Annuleren";
+//"Yes" = "Yes";
+//"No" = "No";
+//
+////Biometric Validation
+"Biometric_Reason" = "Verifieer uw biometrische gegevens om verder te gaan";
+//
+////Help
+//"helpCell" = "helpCell"; // identifier
+//
+////importVC
+"Version:" = "Versie: ";
+//"ImportCell" = "importCell"; // identifier
+//"appLockCell" = "appLockCell"; //identifier
+//"appLockState" = "appLockState"; // 2 identifier
+//"rrCell" = "rrCell"; // identifier
+"lblHeading1" = "Stuur probleem analyse naar uw beheerder.";
+"r_cell_title1" = "RAPPORTAGE VERSTUREN";
+"lblHeading2" = "Verwijder alle huidige instellingen.";
+"r_cell_title2" = "VERWIJDER INSTELLINGEN";
+//"identifierCell" = "identifierCell”;
+"Enter_valid_url" = "Geef geldig internet adres op."; // Also in ViewController
+"Enter_empty_url" = "Voer het internetadres in.";
+"Something_wrong_happened" = "Er ging iets fout";
+"Delete_all_date_confirmation" = "Weet u zeker dat u alle KeyTalk-configuratiegegevens wilt verwijderen?";
+
+//New Strings
+"app_unlock" = "App ontgrendelen";// new string
+"show_me_how" = "Laat me zien hoe?";
+"client_identifier" = "Client-ID";
+"client_identifier_detail" = "Tijdens een ondersteuningsgesprek kunnen we u vragen om het unieke nummer van dit mobiele apparaat te verstrekken (bijvoorbeeld om het te blokkeren als het wordt gestolen). Noteer het volgende nummer en bewaar het op een veilige plaats:";
+"about_details" = "De KeyTalk client maakt automatische aanvraag en uitrol van PKI certificaten mogelijk voor o.a. veilige authenticatie, email versleuteling en digitale document ondertekening:";
+"import_config" = "IMPORTEER CONFIGURATIE";
+"lblimportCellHead" = "Voer een URL in die naar een KeyTalk-clientconfiguratiebestand (RCCD) verwijst.";
+"lblimportCellSubheading" = "Het is ook mogelijk om een KeyTalk-clientconfiguratie (RCCD) -bestand te importeren via een e-mailbijlage.";
+"url_placeholder" = "URL van KeyTalk-configuratiebestand (RCCD)";
+"import_string" = "IMPORTEREN";
+"language_selection_alert" = "Language selected:";
+"secondary_certificate_string" = "Secondary Certificate";
+
+//Appdelegate
+//"rccd" = "rccd"; // fileExternsion
+"invalid_rccd_file" = "Ongeldig KeyTalk-app-configuratiebestand (RCCD)";
+"Unresolved_error" = "Unresolved error";
+"container_name" = "KeyTalk";
+"Locking_Queue" = "Locking Queue";
+//
+////DBHandler
+"RCCD_already_Imported" = "Dit KeyTalk-configuratiebestand was al geïmporteerd.";
+//"Config_string" = "Config"; // 4
+"RCCD_succesfully_imported" = "KeyTalk-configuratiebestand succesvol geïmporteerd.";
+//"configinfo" = "configinfo"; //2
+//"Failed_check_key_database" = "Failed to check the key in the database.";
+//"imageData" = "imageData";
+//"Json_decoding_failed" = "Json decoding failed...... ";
+//"Failed_string" = "Failed"; //3 and LogFile also
+//"User" = "User"; //5 entityName
+//"result_invalid" = "result was invalid.";
+//"invalid_result_found" = "invalid result found."; //2
+//"invalid_result" = "invalid result."; //Logfile also
+//
+////Logfile
+//"LogData" = "LogData"; //2
+//"logData" = "logData";
+//"invalid_string" = "invalid String";
+//
+////HardwareSignature
+//"udid_key" = "com.interrait.keytalkinterra.udid";
+"System_name" = "System name:";
+"System_version" = "Systeem versie:";
+"Platform_string" = "Platform:";
+"Hardware_model" = "Hardwaremodel:";
+"Memory_string" = "Geheugen (gebruiker / totaal):";
+"Diskspace_string" = "Diskspace (beschikbaar / totaal):";
+"CPU_frequency" = "CPU frequentie:";
+"BUS_frequency" = "BUS frequency:";
+//"harware_signature_key" = "hwsigformula";
+//"Component_name_and_value" = "Component name and value";
+//
+//UDID
+//"item_saved_in_keychain" = "item saved in keychain";
+//"Unable_to_save_in_keycahin" = "unable to save in keychain";
+//"Remove_failed" = "Remove failed:";
+//"Nothing_retrieved_Keychain" = "Nothing was retrieved from the keychain. Status code ";
+//
+//
+//VCModel
+"delay_message_alert" = "Er is iets mis gegaan. Probeer het nogmaals in ";
+"seconds_string" = "seconden";
+"locked_message_alert" = "Gebruiker is vergrendeld op de server. Neem contact op met uw beheerder of probeer het over een paar minuten opnieuw.";
+"password_update_message_alert" = "Wachtwoord is verlopen. Werk uw wachtwoord bij.";
+//"challenges" = "challenges";
+//"Status_unrecognised" = "Status unrecognised";
+//"invalid_challenge" = "Invalid challenge encountered.";
+//"download_location" = "/downloaded.rccd";
+//"valid_file_path" = "file://";
+//"rccd_suffix" = ".rccd";
+//
+//ViewController
+//"importRCCD" = "importRCCD";
+//"Delay_time_message" = "delayTime is :::::::";
+"Error_occured_communication" = "Er is een fout opgetreden in de communicatie"; //2
+//// “tempUrlStr” = "$(KEYTALK_SVR_HOST)”;
+"invalid_rccd" = "Ongeldig KeyTalk-app-configuratiebestand (RCCD)";
+"Something_went_wrong" = "Er is iets fout gegaan."; // also in Utilities
+////"Please enter valid url." also in ImportVC file
+"Passcode_notset" = "Toestel toegang passcode niet ingesteld";
+"passcode_configure_alert" = "Toestel toeganscode niet geconfigureerd, stel deze eerst in.";
+"Biometric_validation_alert" = "Biometrische validatie mislukt, probeer opnieuw";
+"Enter_your_response" = "Voer het antwoord van uw token in";//Voer uw antwoord in";
+"Delay_wait" = "WAIT - ";
+//"s" = "s"
+"Authenticate_string" = "AUTHENTICEREN";
+"service_match_alert" = "Service komt niet overeen met beschikbare services";
+"Enter_details_alert" = "Voer alle gegevens in";
+"Select_service_alert" = "Selecteer KeyTalk-service voor het downloaden van de privé-certificaatketen.";
+"Download_one_by_one" = "Certificaten één voor één downloaden";
+"Root_certificate" = "Root Certificate";
+//"Cancel_string" = "Cancel"; present at the top
+"validate_user_response" = "Voer een geldig antwoord in om de uitdaging te voltooien";
+//
+////Defines
+"Certificate_msg_string" = "Het besturingselement wordt overgebracht naar SAFARI.Klik op OK om het certificaat te installeren. Om het wachtwoord in te voeren, druk lang op het wachtwoordveld en selecteer Plakken.";
+"Server_fail_msg_string" = "Er is een fout opgetreden tijdens de verbinding.";
+"Email_report_html_string" = "Dit is een e-mail naar de KeyTalk-helpdesk. Vervang deze tekst door een beschrijving van het probleem dat u ondervindt en wat u aan het doen was toen het probleem zich voordeed. Het bijgevoegde logbestand is nodig om ons u zo efficiënt mogelijk te helpen. Het bevat geen persoonlijke informatie.";
+"Email_report_subject_string" = "KeyTalk iOS-client - Foutrapport";
+//
+////Utilities
+////“Parcing_filepath” = “/ParsingRCCD”;
+////Something went wrong also in ViewController
+"response_status_string" = "Status :";
+//
+////Connection
+"Something_went_wrong_try_again" = "Er is iets fout gegaan. Probeer het opnieuw."; //4
+//"statusCode" = "Status: ";
+//"Headers" = "Headers:::";
+//"ResponseString" = "ResponseString:::";
+//
+////ServerDefines also ViewController
+//"PassWordChallenge" = "Password challenge";
+"nextToken_string" = "Please Enter the Next Code from Your Token:";
+"otp_string" = "otp";
+"newUserDefinedPin_string" = "Enter your new PIN of 4 to 8 digits,or <Ctrl-D> to cancel the New PIN procedure:";
+"reenterNewPin_string" = "Please re-enter new PIN:";
+"newPinandPasscode_string" = "Wait for the code on your card to change, then enter new PIN and TokenCode\r\n\r\nEnter PASSCODE:";
+"newSystemPushedPin_string" = "Are you prepared to accept a new system-generated PIN [y/n]?";
+//"rcdpProtocol" = "/rcdp/2.2.0";
+
+//Connection Handler
+//// “Something_went_wrong_try_again” in Connection file
+"End_communication" = "Einde van de communicatie.";
+//"identity" = "identity";
+//"Accept_encoding" = "Accept-Encoding";
+
+//main page
+"KeyTalk_service_string" = "KeyTalk Services";
+"username_string" = "Gebruikersnaam";
+"Password_string" = "Wachtwoord";
+"trust_button_string" = "VERTROUW CERTIFICAAT KETEN";
+//"Authenticate_string" = "AUTHENTICATE"; also in ViewController
+"please_wait_string" = "Even geduld aub..";
+"long_press_password_strong" = "Om het installatiewachtwoord van het certificaat in te voeren, drukt u lang op het wachtwoordveld en selecteert u Plakken als uw apparaat hierom vraagt.";
+"transfer_to_safari_string" = "De SAFARI-browser zal zo worden geopend om de installatie af te ronden. Klik alstublieft op OK om het certificaat te installeren.";
+
+//Help VC Page
+"step_one" = "Step 1.";
+"step_one_instruction_string" = "Open uw e-mailclient";
+"step_two" = "Step 2.";
+"step_two_instruction_string" = "Open de mail met het KeyTalk-clientconfiguratiebestand (RCCD)";
+"step_three" = "Step 3.";
+"step_three_instruction_string" = "Open het RCCD-bestand door \"Kopieer naar KeyTalk 5\" te selecteren";
+"step_four" = "Step 4.";
+"step_four_instruction_string" = "U ontvangt een bevestiging dat het RCCD-bestand succesvol is geïmporteerd.";
+
+"lang_change" = "Taal/Language";

@@ -3,8 +3,6 @@
 //  KeyTalk
 //
 //  Created by Paurush on 5/15/18.
-//  Copyright © 2018 Paurush. All rights reserved.
-//
 
 import UIKit
 import CoreData
@@ -21,7 +19,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         IQKeyboardManager.shared.enable = true
         Zip.addCustomFileExtension("rccd")
-        //Log.deleteLogData()
+        
+        //Retreiving last saved locale info
+        Utilities.getLocalCode()
+        
         return true
     }
 
@@ -50,22 +51,30 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
+        //This is provide a url at which the rccd file is been stored. which is then used to unzip the rccd file and extracts the contents of it.
         Utilities.unzipRCCDFile(url: url) {[weak self] (success) in
+            //creates an object of the rootViewController
+            let vc = self?.window?.rootViewController as? ViewController
             if success {
+                //if successful in unzipping the rccd file.
                 DispatchQueue.main.async {
-                    let vc = self?.window?.rootViewController as? ViewController
                     if let tempVC = vc {
                         if  tempVC.isKind(of: ViewController.self) {
+                            //Refresh the contents of the RootVc or ServicesView with the contents of the downloaded rccd file.
                             tempVC.refreshData()
                         }
                     }
                 }
+            } else {
+                //if the RCCD file downloaded is invalid or unable to unzip
+                Utilities.showAlert(message: "invalid_rccd_file".localized(KTLocalLang), owner: vc!)
             }
         }
         
         return true
     }
 
+    
     // MARK: - Core Data stack
 
     lazy var persistentContainer: NSPersistentContainer = {
@@ -75,7 +84,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
          application to it. This property is optional since there are legitimate
          error conditions that could cause the creation of the store to fail.
         */
-        let container = NSPersistentContainer(name: "KeyTalk")
+        let container = NSPersistentContainer(name: "container_name".localized(KTLocalLang))
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
             if let error = error as NSError? {
                 // Replace this implementation with code to handle the error appropriately.
@@ -89,19 +98,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                  * The store could not be migrated to the current model version.
                  Check the error message to determine what the actual problem was.
                  */
-                fatalError("Unresolved error \(error), \(error.userInfo)")
+                fatalError("\("Unresolved_error".localized(KTLocalLang)) \(error), \(error.userInfo)")
             }
         })
         return container
     }()
 
     // MARK: - Core Data Saving support
-
+    /**
+     This method is used to save the context of the core data.
+     */
     func saveContext () {
-        let lockQueue = DispatchQueue(label: "Locking Queue")
+        let lockQueue = DispatchQueue(label: "Locking_Queue".localized(KTLocalLang))
         lockQueue.sync() {
             let context = persistentContainer.viewContext
             if context.hasChanges {
+                //if there is any change in the context, then only the context will be saved.
                 do {
                     try context.save()
                 } catch {

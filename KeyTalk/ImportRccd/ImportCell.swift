@@ -16,6 +16,7 @@ class ImportCell: UITableViewCell {
     
     @IBOutlet var btnShowMeHow: UIButton!
     @IBOutlet var btnImport: UIButton!
+    @IBOutlet var btnlangchange: UIButton!
     
     @IBOutlet var textFieldUrl: UITextField!
     @IBOutlet var viewShowMeHow: UIView!
@@ -40,9 +41,9 @@ class ReportAndRemoveCell: UITableViewCell {
     deinit {
     }
 }
-
-class ClientIdentifierCell: UITableViewCell {
-    @IBOutlet var lblUDID: UILabel!
+class AppLockCell :UITableViewCell {
+    @IBOutlet var appLockSwitch : UISwitch!
+    @IBOutlet var lAppunlock: UILabel!
     //MARK:- LifeCycleMethods
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
@@ -51,9 +52,36 @@ class ClientIdentifierCell: UITableViewCell {
     deinit {
     }
 }
+//class ClientIdentifierCell: UITableViewCell {
+//    @IBOutlet var lblUDID: UILabel!
+//    @IBOutlet var lblClientIdentifier: UILabel!
+//    @IBOutlet weak var lvlClientIdentifierDetail: UILabel!
+//
+//    //MARK:- LifeCycleMethods
+//    required init?(coder aDecoder: NSCoder) {
+//        super.init(coder: aDecoder)
+//    }
+//
+//    deinit {
+//    }
+//}
 
 class HelpCell: UITableViewCell {
-    @IBOutlet var imgView: UIImageView!
+   
+    @IBOutlet var lblStepone: UILabel!
+    @IBOutlet var lblsteponedetails: UILabel!
+    @IBOutlet var lblSteptwo: UILabel!
+    @IBOutlet var lblsteptwodetails: UILabel!
+    @IBOutlet var lblStepthree: UILabel!
+    @IBOutlet var lblstepthreedetails: UILabel!
+    @IBOutlet var lblStepfour: UILabel!
+    @IBOutlet var lblstepfourdetails: UILabel!
+    @IBOutlet var imgstepone: UIImageView!
+    @IBOutlet var imgsteptwo: UIImageView!
+    @IBOutlet var imgstepthree: UIImageView!
+    @IBOutlet var imgstepfour: UIImageView!
+    
+    
     //MARK:- LifeCycleMethods
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)

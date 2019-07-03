@@ -1,0 +1,87 @@
+
+/* Class = "UITextField"; placeholder = "URL of RCCD file"; ObjectID = "1Rb-sD-djI"; */
+"1Rb-sD-djI.placeholder" = "URL of RCCD file";
+
+/* Class = "UIButton"; normalTitle = "AUTHENTICATE"; ObjectID = "5JZ-eu-aTc"; */
+"5JZ-eu-aTc.normalTitle" = "AUTHENTICATE";
+
+/* Class = "UITextField"; placeholder = "KeyTalk Services"; ObjectID = "7te-w5-AWv"; */
+"7te-w5-AWv.placeholder" = "KeyTalk Services";
+
+/* Class = "UIButton"; normalTitle = "Ok"; ObjectID = "7yv-3q-awJ"; */
+"7yv-3q-awJ.normalTitle" = "Ok";
+
+/* Class = "UILabel"; text = "IMPORT CONFIGURATION"; ObjectID = "8aK-2C-uRC"; */
+"8aK-2C-uRC.text" = "IMPORT CONFIGURATION";
+
+/* Class = "UIButton"; normalTitle = "Show me how?"; ObjectID = "BrW-Oe-S6J"; */
+"BrW-Oe-S6J.normalTitle" = "Show me how?";
+
+/* Class = "UILabel"; text = "Do you want to have a new poin, kindly use this view,Do you want to have a new poin, kindly use this view,"; ObjectID = "F3g-2S-j1O"; */
+"F3g-2S-j1O.text" = "";
+
+/* Class = "UILabel"; text = "UDID"; ObjectID = "IQF-R2-NUL"; */
+"IQF-R2-NUL.text" = "UDID";
+
+/* Class = "UIButton"; normalTitle = "TRUST CERT. CHAIN"; ObjectID = "J3G-fU-pzf"; */
+"J3G-fU-pzf.normalTitle" = "TRUST CERT. CHAIN";
+
+/* Class = "UILabel"; text = "AUTHENTICATE"; ObjectID = "NS3-bn-xkR"; */
+"NS3-bn-xkR.text" = "AUTHENTICATE";
+
+/* Class = "UITextField"; placeholder = "Enter your response"; ObjectID = "QTx-d5-VaI"; */
+"QTx-d5-VaI.placeholder" = "Enter your response";
+
+/* Class = "UILabel"; text = "It is also possible to import a KeyTalk client configuration (RCCD) file via an email attachment."; ObjectID = "Rtb-rj-SAT"; */
+"Rtb-rj-SAT.text" = "It is also possible to import a KeyTalk client configuration (RCCD) file via an email attachment.";
+
+/* Class = "UIButton"; normalTitle = "SEND REPORT"; ObjectID = "TAk-6h-bue"; */
+"TAk-6h-bue.normalTitle" = "SEND REPORT";
+
+/* Class = "UILabel"; text = "Your KeyTalk app enables you to install an X.509 certificate and key. This certificate and key are used to encrypt/decrypt emails, securely authenticate to websites and Wifi hotspots etc. For more information visit:"; ObjectID = "Uio-My-o9h"; */
+"Uio-My-o9h.text" = "Your KeyTalk app enables you to install an X.509 certificate and key. This certificate and key are used to encrypt/decrypt emails, securely authenticate to websites and Wifi hotspots etc. For more information visit:";
+
+/* Class = "UILabel"; text = "Please Wait.."; ObjectID = "VWD-2q-PkA"; */
+"VWD-2q-PkA.text" = "Please Wait..";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "bhL-Mw-Ab3"; */
+"bhL-Mw-Ab3.placeholder" = "Password";
+
+/* Class = "UIButton"; normalTitle = "IMPORT"; ObjectID = "bxG-z8-Y8n"; */
+"bxG-z8-Y8n.normalTitle" = "IMPORT";
+
+/* Class = "UILabel"; text = "Client Identifier"; ObjectID = "dhp-7z-NdZ"; */
+"dhp-7z-NdZ.text" = "Client Identifier";
+
+/* Class = "UIButton"; normalTitle = "OK"; ObjectID = "fZ2-ZZ-H2P"; */
+"fZ2-ZZ-H2P.normalTitle" = "OK";
+
+/* Class = "UILabel"; text = "KEYTALK"; ObjectID = "gtS-IX-Kti"; */
+"gtS-IX-Kti.text" = "KEYTALK";
+
+/* Class = "UILabel"; text = "During a support call, we may ask you to provide this mobile device's unique number (for example, to block it in case it gets stolen). Please note down the following number and store it in a safe place:"; ObjectID = "huS-zN-ycC"; */
+"huS-zN-ycC.text" = "During a support call, we may ask you to provide this mobile device's unique number (for example, to block it in case it gets stolen). Please note down the following number and store it in a safe place:";
+
+/* Class = "UILabel"; text = "Enter a URL that points to a  KeyTalk client configuration (RCCD) file."; ObjectID = "i1I-pZ-2LZ"; */
+"i1I-pZ-2LZ.text" = "Enter a URL that points to a  KeyTalk client configuration (RCCD) file.";
+
+/* Class = "UILabel"; text = "To enter the password, Please long press on the password field and select Paste."; ObjectID = "kSw-qW-3UE"; */
+"kSw-qW-3UE.text" = "To enter the password, Please long press on the password field and select Paste.";
+
+/* Class = "UILabel"; text = "App Unlock"; ObjectID = "sqC-wa-Y64"; */
+"sqC-wa-Y64.text" = "App Unlock";
+
+/* Class = "UILabel"; text = "The control is going to be transferred to SAFARI. Please click on OK to install the certificate."; ObjectID = "t69-aK-63d"; */
+"t69-aK-63d.text" = "The control is going to be transferred to SAFARI. Please click on OK to install the certificate.";
+
+/* Class = "UIButton"; normalTitle = "https://www.keytalk.com"; ObjectID = "tD0-2R-fdb"; */
+"tD0-2R-fdb.normalTitle" = "https://www.keytalk.com";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "tl0-BW-GWZ"; */
+"tl0-BW-GWZ.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Ok"; ObjectID = "uaJ-Jn-YJF"; */
+"uaJ-Jn-YJF.normalTitle" = "Ok";
+
+/* Class = "UITextField"; placeholder = "Username"; ObjectID = "ysb-hw-24V"; */
+"ysb-hw-24V.placeholder" = "Username";

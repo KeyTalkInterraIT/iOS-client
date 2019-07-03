@@ -9,14 +9,21 @@
 import Foundation
 
 class INIParser {
-    
+    /**
+     This method is used to parse the user.ini file contents and convert the contents into a valid JSON string, inorder to be retrive the information within the file.
+     
+     - Parameter aIniString: The contents of the user.ini file converted into a string.
+     - Returns : A valid JSON string of the user.ini file contents.
+    */
     public class func parseIni(aIniString: String) -> String {
         
         var lContentString = aIniString
         
+        //starts the json file
         if !lContentString.hasPrefix("{"){
             lContentString = "{" + lContentString
         }
+        //ends the json file
         if !lContentString.hasSuffix("}"){
             lContentString = lContentString + "}"
         }

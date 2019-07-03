@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F6BE43420F4ACFD00D9E34A /* KeytalkAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6BE43320F4ACFD00D9E34A /* KeytalkAuthentication.swift */; };
+		5BB0CBCF211061A10054E4A9 /* UDID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB0CBCE211061A10054E4A9 /* UDID.swift */; };
 		730C69B520AAAD9100278A52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 730C69B320AAAD9100278A52 /* Main.storyboard */; };
 		730C69BA20AAAD9100278A52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 730C69B920AAAD9100278A52 /* Assets.xcassets */; };
 		730C69BD20AAAD9100278A52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 730C69BB20AAAD9100278A52 /* LaunchScreen.storyboard */; };
@@ -32,13 +34,16 @@
 		7384300420D78729002266A7 /* ImportCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7384300320D78729002266A7 /* ImportCell.swift */; };
 		7384300620D79F1D002266A7 /* ImportModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7384300520D79F1D002266A7 /* ImportModel.swift */; };
 		7384300C20D7B030002266A7 /* HelpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7384300B20D7B030002266A7 /* HelpVC.swift */; };
+		A11C986621C7F83F002A90BB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A11C986821C7F83F002A90BB /* Localizable.strings */; };
 		F852A5A50F79FEE245A65BDE /* Pods_KeyTalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 296379723CA59EF3DF23D58E /* Pods_KeyTalk.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0E537DC20F47B16B4D8732C7 /* Pods-KeyTalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyTalk.release.xcconfig"; path = "Pods/Target Support Files/Pods-KeyTalk/Pods-KeyTalk.release.xcconfig"; sourceTree = "<group>"; };
+		0F6BE43320F4ACFD00D9E34A /* KeytalkAuthentication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeytalkAuthentication.swift; sourceTree = "<group>"; };
 		296379723CA59EF3DF23D58E /* Pods_KeyTalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeyTalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		480A647D7F7B22F0F86B65F7 /* Pods-KeyTalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyTalk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KeyTalk/Pods-KeyTalk.debug.xcconfig"; sourceTree = "<group>"; };
+		5BB0CBCE211061A10054E4A9 /* UDID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UDID.swift; sourceTree = "<group>"; };
 		730C69AC20AAAD9100278A52 /* KeyTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		730C69B420AAAD9100278A52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		730C69B920AAAD9100278A52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -67,6 +72,17 @@
 		7384300320D78729002266A7 /* ImportCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportCell.swift; sourceTree = "<group>"; };
 		7384300520D79F1D002266A7 /* ImportModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportModel.swift; sourceTree = "<group>"; };
 		7384300B20D7B030002266A7 /* HelpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpVC.swift; sourceTree = "<group>"; };
+		A11C985C21C79588002A90BB /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
+		A11C985D21C79588002A90BB /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		A11C985E21C79590002A90BB /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Main.strings; sourceTree = "<group>"; };
+		A11C985F21C79591002A90BB /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		A11C986021C79596002A90BB /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		A11C986121C79596002A90BB /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		A11C986321C795B0002A90BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		A11C986721C7F83F002A90BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A11C986F21C8D376002A90BB /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A11C987021C8D39C002A90BB /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A11C987121C8D3A3002A90BB /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +97,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F6BE43220F4ACC100D9E34A /* BiometricValidation */ = {
+			isa = PBXGroup;
+			children = (
+				0F6BE43320F4ACFD00D9E34A /* KeytalkAuthentication.swift */,
+			);
+			path = BiometricValidation;
+			sourceTree = "<group>";
+		};
 		19C92443E457E25D85A81DB8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -110,21 +134,22 @@
 		730C69AE20AAAD9100278A52 /* KeyTalk */ = {
 			isa = PBXGroup;
 			children = (
+				0F6BE43220F4ACC100D9E34A /* BiometricValidation */,
 				7384300A20D7B01A002266A7 /* Help */,
 				7384300020D780B0002266A7 /* ImportRccd */,
-				73842FFA20D77E5D002266A7 /* OpenUDID */,
 				73842FE020D77840002266A7 /* AppDelegate */,
 				73842FCF20D77840002266A7 /* Database */,
 				73842FDE20D77840002266A7 /* HardwareSignature */,
 				73842FDC20D77840002266A7 /* INI */,
 				73842FCC20D77840002266A7 /* MainScreen */,
-				73842FC920D77840002266A7 /* RCCDEntity */,
 				73842FD820D77840002266A7 /* Utilities */,
 				73842FC720D777C0002266A7 /* UI */,
 				730C69D620ADB06100278A52 /* Connection */,
 				73842FC820D777FE002266A7 /* Resources */,
+				73842FC920D77840002266A7 /* RCCDEntity */,
 				730C69BE20AAAD9100278A52 /* Info.plist */,
 				73842FFE20D77F18002266A7 /* KeyTalk-Bridging-Header.h */,
+				A11C986821C7F83F002A90BB /* Localizable.strings */,
 			);
 			path = KeyTalk;
 			sourceTree = "<group>";
@@ -206,6 +231,7 @@
 			isa = PBXGroup;
 			children = (
 				73842FDF20D77840002266A7 /* HardwareSignature.swift */,
+				5BB0CBCE211061A10054E4A9 /* UDID.swift */,
 			);
 			path = HardwareSignature;
 			sourceTree = "<group>";
@@ -230,6 +256,7 @@
 		7384300020D780B0002266A7 /* ImportRccd */ = {
 			isa = PBXGroup;
 			children = (
+				73842FFA20D77E5D002266A7 /* OpenUDID */,
 				7384300120D780D6002266A7 /* ImportVC.swift */,
 				7384300320D78729002266A7 /* ImportCell.swift */,
 				7384300520D79F1D002266A7 /* ImportModel.swift */,
@@ -305,6 +332,9 @@
 			knownRegions = (
 				en,
 				Base,
+				de,
+				nl,
+				fr,
 			);
 			mainGroup = 730C69A320AAAD9100278A52;
 			productRefGroup = 730C69AD20AAAD9100278A52 /* Products */;
@@ -322,6 +352,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				730C69BD20AAAD9100278A52 /* LaunchScreen.storyboard in Resources */,
+				A11C986621C7F83F002A90BB /* Localizable.strings in Resources */,
 				730C69BA20AAAD9100278A52 /* Assets.xcassets in Resources */,
 				730C69B520AAAD9100278A52 /* Main.storyboard in Resources */,
 			);
@@ -378,6 +409,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				73842FEC20D77840002266A7 /* LogFile.swift in Sources */,
+				0F6BE43420F4ACFD00D9E34A /* KeytalkAuthentication.swift in Sources */,
 				73842FE920D77840002266A7 /* KeyTalk.xcdatamodeld in Sources */,
 				73842FF120D77840002266A7 /* HardwareSignature.swift in Sources */,
 				73842FFF20D77F18002266A7 /* KeyTalk-Bridging-Header.h in Sources */,
@@ -389,6 +421,7 @@
 				7384300620D79F1D002266A7 /* ImportModel.swift in Sources */,
 				730C69DA20ADB0FB00278A52 /* ServerDefines.swift in Sources */,
 				73842FEF20D77840002266A7 /* Utilities.swift in Sources */,
+				5BB0CBCF211061A10054E4A9 /* UDID.swift in Sources */,
 				7384300220D780D6002266A7 /* ImportVC.swift in Sources */,
 				73842FED20D77840002266A7 /* ColorExtension.swift in Sources */,
 				7384300C20D7B030002266A7 /* HelpVC.swift in Sources */,
@@ -409,6 +442,10 @@
 			isa = PBXVariantGroup;
 			children = (
 				730C69B420AAAD9100278A52 /* Base */,
+				A11C985C21C79588002A90BB /* de */,
+				A11C985E21C79590002A90BB /* nl */,
+				A11C986021C79596002A90BB /* fr */,
+				A11C986321C795B0002A90BB /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -417,8 +454,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				730C69BC20AAAD9100278A52 /* Base */,
+				A11C985D21C79588002A90BB /* de */,
+				A11C985F21C79591002A90BB /* nl */,
+				A11C986121C79596002A90BB /* fr */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A11C986821C7F83F002A90BB /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A11C986721C7F83F002A90BB /* en */,
+				A11C986F21C8D376002A90BB /* de */,
+				A11C987021C8D39C002A90BB /* nl */,
+				A11C987121C8D3A3002A90BB /* fr */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -428,6 +479,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -485,6 +537,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -537,16 +590,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 37BDH5GXA8;
 				INFOPLIST_FILE = KeyTalk/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.keytalk.keytalkclient5;
+				PRODUCT_BUNDLE_IDENTIFIER = com.interrait.keytalk.keytalkclient5;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "9c57b3c4-9496-441e-9a17-b2e5b1e8604b";
-				PROVISIONING_PROFILE_SPECIFIER = InterraDeveloper;
+				PROVISIONING_PROFILE_SPECIFIER = New_Interra_Dev;
 				SWIFT_OBJC_BRIDGING_HEADER = "KeyTalk/KeyTalk-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
@@ -560,16 +614,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 5ELBHFZN8K;
+				DEVELOPMENT_TEAM = 37BDH5GXA8;
 				INFOPLIST_FILE = KeyTalk/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.keytalk.keytalkclient5;
+				PRODUCT_BUNDLE_IDENTIFIER = com.interrait.keytalk.keytalkclient5;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "d1727be4-4a6e-480c-84f8-aae35c6caeb9";
-				PROVISIONING_PROFILE_SPECIFIER = KeyTalk5AppStore;
+				PROVISIONING_PROFILE = "f188037d-e1bb-4e43-95d1-c79de3858e7a";
+				PROVISIONING_PROFILE_SPECIFIER = Interra_Adhoc;
 				SWIFT_OBJC_BRIDGING_HEADER = "KeyTalk/KeyTalk-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
