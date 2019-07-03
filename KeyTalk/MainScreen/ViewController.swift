@@ -1106,21 +1106,20 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             Utilities.showAlert(message: "Select_service_alert".localized(KTLocalLang), owner: self)
             return
         }
-        let serverStr1 = "keytalk.keytalk.com"
         
         //gets the server url.
         let serverStr = rccdArr[0].Providers[0].Server
         let actionSheet = UIAlertController(title: "KeyTalk", message: "Download_one_by_one".localized(KTLocalLang), preferredStyle: .actionSheet)
         //adds action to download primary certificate.
         let primaryCerAction = UIAlertAction(title: "Root_certificate".localized(KTLocalLang), style: .default) { (action) in
-            let url = URL(string: "https://\(serverStr1)\(caPort)/ca/1.0.0/primary")
+            let url = URL(string: "https://\(serverStr)\(caPort)/ca/1.0.0/primary")
             if UIApplication.shared.canOpenURL(url!) {
                 UIApplication.shared.open(url!, options: [:], completionHandler: nil)
             }
         }
         //adds action to download secondary certificate.
         let secondaryCerAction = UIAlertAction(title: "secondary_certificate_string".localized(KTLocalLang), style: .default) { (action) in
-            let url = URL(string: "https://\(serverStr1)\(caPort)/ca/1.0.0/signing")
+            let url = URL(string: "https://\(serverStr)\(caPort)/ca/1.0.0/signing")
             if UIApplication.shared.canOpenURL(url!) {
                 UIApplication.shared.open(url!, options: [:], completionHandler: nil)
             }
